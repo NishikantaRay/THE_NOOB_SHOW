@@ -26,7 +26,7 @@ body{
 
 .paralx-div:nth-child(2){
     box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
-    background-image: url('../img/img1.jpg');
+    background-image: url('../img/img3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  center;
@@ -36,9 +36,10 @@ body{
 
 .paralx-div:nth-child(3){
     height: 600px;
-    background-image: url('../img/bg_page_2.jpg');
+    background-image: url('../img/img1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:  center;
     background-attachment: fixed;
 }
 
@@ -646,3 +647,4 @@ ul {
 .logo{
     color: #00838d;
 }
+
