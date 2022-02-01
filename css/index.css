@@ -335,10 +335,15 @@ body{
     display: none;
   }
   .container .slider {
-    animation: slidein 30s linear infinite;
+    animation: slidein 50s linear ;
     white-space: normal;
     overflow-x: hidden;
     text-overflow: ellipsis;
+    
+  }
+  .container .slider .logos .fab {
+    width: calc(100% / 5);
+    animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate-reverse;
   }
 }
 .paralx-div:nth-child(3){
