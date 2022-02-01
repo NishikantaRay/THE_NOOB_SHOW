@@ -41,7 +41,7 @@ html{
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
-  font-family: 'Lobster', cursive
+  /* font-family: 'Lobster', cursive */
 }
 .header .navbar .menu {
   display: flex;
@@ -62,7 +62,7 @@ html{
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -244,6 +244,7 @@ body{
 .paralx-div{
     width: 100%;
     height: 100vh;
+    
 }
 
 .paralx-div:nth-child(1){
@@ -252,6 +253,15 @@ body{
     background-repeat: no-repeat;
     background-position:  center;
     box-shadow: inset 200px 1px 300px 200px rgba(0,0,0,0.5);
+}
+.hero-content3{
+  font-family:Roboto;
+  position:absolute;
+  /* top:20%; */
+  text-align: center;
+  width:100%;
+  max-width:700px;
+  min-width:280px;
 }
  
 
@@ -312,7 +322,24 @@ body{
     max-width:500px;
     min-width:280px;
   }
-  
+  .hero-content3{
+    font-family:Roboto;
+    position:absolute;
+    /* top:20%; */
+    left:60px;
+    width:75%;
+    max-width:500px;
+    min-width:280px;
+  }
+  .dis{
+    display: none;
+  }
+  .container .slider {
+    animation: slidein 30s linear infinite;
+    white-space: normal;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+  }
 }
 .paralx-div:nth-child(3){
     height: 400px;
