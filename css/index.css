@@ -183,10 +183,10 @@ html{
 .hero-content{
   font-family:Roboto;
   position:absolute;
-  top:20%;
+  top:30%;
   left:60px;
-  width:75%;
-  max-width:520px;
+  width:100%;
+  max-width:720px;
   min-width:280px;
 }
 .hero-header{
@@ -296,7 +296,14 @@ body{
       line-height:1.5;
       margin-bottom:28px;
     }
-    
+    .hero-content{
+      font-family:Roboto;
+      position:absolute;
+      top:20%;
+      left:60px;
+      width:75%;
+      max-width:520px;
+      min-width:280px;}
   .card-hello{
     height: 400px;
     width: 320px;
@@ -560,65 +567,6 @@ i {
 }
 
 
-.blurred-box{
-    position: relative;
-    width: 250px;
-    height: 150px;
-    top: calc(50% - 175px);
-    left: calc(50% - 125px);
-    background: inherit;
-    border-radius: 5px;
-    overflow: hidden;
-}
-  
-.blurred-box:after{
-    content: '';
-    width: 300px;
-    height: 300px;
-    background: inherit; 
-    position: absolute;
-    left: -25px;
-    left : position;
-    right: 0;
-    top: -25px;  
-    top: position ;
-    bottom: 0;
-    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
-    filter: blur(10px);
-}
-  
-  
-/* Form which you dont need */
-.user-login-box{
-    position: relative;
-    margin-top: 50px;
-    text-align: center;
-    z-index: 1;
-}
-
-.user-login-box > *{
-    display: inline-block;
-    width: 200px;
-}
-  
-.user-icon{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    border-radius: 50%;
-    background-size: contain;
-    background-image: url(https://pbs.twimg.com/profile_images/725321660484583424/ArQ4fM3k.jpg);
-}
-  
-input.user-password{
-    width: 150px;
-    height: 26px;
-    opacity: 0.4;
-    border-radius: 2px;
-    padding: 5px 15px;
-    border: 0;
-}
-
 
 
 .cont-p {
@@ -844,11 +792,11 @@ ul {
 
 }
 .footer-section {
-  background: #151414;
+  background: #020202;
   position: relative;
 }
 .footer-cta {
-  border-bottom: 1px solid #373636;
+  border-bottom: 1px solid #070707;
 }
 .single-cta i {
   color: #ff5e14;
@@ -893,6 +841,7 @@ ul {
   font-size: 14px;
       color: #7e7e7e;
   line-height: 28px;
+  width: 90%;
 }
 .footer-social-icon span {
   color: #fff;
