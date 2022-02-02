@@ -338,9 +338,10 @@ body{
     max-width:500px;
     min-width:280px;
   }
-  .dis{
-    display: none;
-  }
+  
+.hero-header{
+  font-size: 36px;
+}
   .container .slider {
     animation: slidein 50s linear ;
     white-space: normal;
