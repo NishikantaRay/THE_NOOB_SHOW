@@ -342,6 +342,9 @@ body{
 .hero-header{
   font-size: 36px;
 }
+.brand{
+  font-size: 36px;
+}
   .container .slider {
     animation: slidein 50s linear ;
     white-space: normal;
@@ -352,6 +355,9 @@ body{
   .container .slider .logos .fab {
     width: calc(100% / 5);
     animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate-reverse;
+  }
+  .dis{
+    display: none;
   }
 }
 .paralx-div:nth-child(3){
