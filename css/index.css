@@ -64,7 +64,6 @@ html {
   text-decoration: none;
   /* font-family: cursive; */
 }
-/* NAVBAR END */
 @media only screen and (max-width: 768px) {
   .header .navbar {
     padding: 1rem 2rem;
@@ -171,10 +170,12 @@ html {
     transform: translateX(0);
   }
 }
+/* NAVBAR END */
+
+/* paralax */
 .hero-content2 {
   font-family: Roboto;
   position: absolute;
-  /* top:20%; */
   left: 60px;
   width: 100%;
   max-width: 700px;
@@ -229,17 +230,19 @@ html {
   margin: 20px 20px 0px 0px;
 }
 
+.hero-content3 {
+  font-family: Roboto;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  min-width: 280px;
+}
 ion-icon {
   font-size: 24px;
   vertical-align: middle;
   color: #000;
 }
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
 .paralx-div {
   width: 100%;
   height: 100vh;
@@ -252,16 +255,6 @@ body {
   background-position: center;
   box-shadow: inset 200px 1px 300px 200px rgba(0, 0, 0, 0.5);
 }
-.hero-content3 {
-  font-family: Roboto;
-  position: absolute;
-  /* top:20%; */
-  text-align: center;
-  width: 100%;
-  max-width: 700px;
-  min-width: 280px;
-}
-
 .paralx-div:nth-child(2) {
   box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
   background-image: url("../img/img3.jpg");
@@ -271,6 +264,37 @@ body {
   background-attachment: fixed;
   box-shadow: inset 200px 1px 300px 200px rgba(0, 0, 0, 0.7);
   height: 300px;
+}
+.paralx-div:nth-child(3) {
+  height: 400px;
+  background-image: url("../img/img1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: inset 200px 1px 300px 200px rgba(0, 0, 0, 0.5);
+}
+
+.paralx-div:nth-child(4) {
+  background-image: url("../img/img4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+  box-shadow: inset 200px 1px 300px 200px rgba(0, 0, 0, 0.5);
+  height: 400px;
+}
+.paralx-div:nth-child(5) {
+  background-image: url("../img/img5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: inset 200px 1px 300px 200px rgba(0, 0, 0, 0.5);
+  height: 400px;
 }
 @media only screen and (max-width: 480px) {
   .paralx-div:nth-child(1) {
@@ -303,22 +327,7 @@ body {
     max-width: 520px;
     min-width: 280px;
   }
-  .card-hello {
-    height: 400px;
-    width: 320px;
-    background-color: rgba(255, 255, 255, 0.06);
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    position: absolute;
-    bottom: -2450px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
-    border-radius: 8px;
-    -webkit-box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
-    box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
-    font-family: "Poppins", sans-serif;
-  }
+  
   .hero-content2 {
     font-family: Roboto;
     position: absolute;
@@ -359,26 +368,9 @@ body {
     display: none;
   }
 }
-.paralx-div:nth-child(3) {
-  height: 400px;
-  background-image: url("../img/img1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  box-shadow: inset 200px 1px 300px 200px rgba(0, 0, 0, 0.5);
-}
+/* paralax  end*/
 
-.paralx-div:nth-child(4) {
-  background-image: url("../img/img4.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  background-attachment: fixed;
-  box-shadow: inset 200px 1px 300px 200px rgba(0, 0, 0, 0.5);
-  height: 400px;
-}
+/* slider */
 .container .slider {
   animation: slidein 30s linear infinite;
   white-space: nowrap;
@@ -409,157 +401,11 @@ body {
     opacity: 1;
   }
 }
-.paralx-div:nth-child(5) {
-  background-image: url("../img/img5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  background-position: center;
-  background-attachment: fixed;
-  box-shadow: inset 200px 1px 300px 200px rgba(0, 0, 0, 0.5);
-  height: 400px;
-}
-/* navbar */
 
-i {
-  margin-right: 10px;
-}
-/*----------multi-level-accordian-menu------------*/
-.navbar-logo {
-  padding: 15px;
-  color: #fff;
-}
-.navbar-mainbg {
-  background-color: #151414;
-  padding: 0px;
-}
-#navbarSupportedContent {
-  overflow: hidden;
-  position: relative;
-}
-#navbarSupportedContent ul {
-  padding: 0px;
-  margin: 0px;
-}
-#navbarSupportedContent ul li a i {
-  margin-right: 10px;
-}
-#navbarSupportedContent li {
-  list-style-type: none;
-  float: left;
-}
-#navbarSupportedContent ul li a {
-  color: rgb(243, 242, 242);
-  text-decoration: none;
-  font-size: 15px;
-  display: block;
-  padding: 20px 20px;
-  transition-duration: 0.6s;
-  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  position: relative;
-}
-#navbarSupportedContent > ul > li.active > a {
-  color: #151414;
-  background-color: transparent;
-  transition: all 0.7s;
-}
-#navbarSupportedContent a:not(:only-child):after {
-  content: "\f105";
-  position: absolute;
-  right: 20px;
-  top: 10px;
-  font-size: 14px;
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  padding-right: 3px;
-  vertical-align: middle;
-  font-weight: 900;
-  transition: 0.5s;
-}
-#navbarSupportedContent .active > a:not(:only-child):after {
-  transform: rotate(90deg);
-}
-.hori-selector {
-  display: inline-block;
-  position: absolute;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  transition-duration: 0.6s;
-  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  background-color: #fff;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  margin-top: 10px;
-}
-.hori-selector .right,
-.hori-selector .left {
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  background-color: #fff;
-  bottom: 10px;
-}
-.hori-selector .right {
-  right: -25px;
-}
-.hori-selector .left {
-  left: -25px;
-}
-.hori-selector .right:before,
-.hori-selector .left:before {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #151414;
-}
-.hori-selector .right:before {
-  bottom: 0;
-  right: -25px;
-}
-.hori-selector .left:before {
-  bottom: 0;
-  left: -25px;
-}
-.navbar-logo:hover {
-  color: rgb(46, 6, 20);
-}
 
-@media (max-width: 991px) {
-  #navbarSupportedContent ul li a {
-    padding: 12px 30px;
-  }
-  .hori-selector {
-    margin-top: 0px;
-    margin-left: 10px;
-    border-radius: 0;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-  }
-  .hori-selector .left,
-  .hori-selector .right {
-    right: 10px;
-  }
-  .hori-selector .left {
-    top: -25px;
-    left: auto;
-  }
-  .hori-selector .right {
-    bottom: -25px;
-  }
-  .hori-selector .left:before {
-    left: -25px;
-    top: -25px;
-  }
-  .hori-selector .right:before {
-    bottom: -25px;
-    left: -25px;
-  }
-}
-/* end */
+/* slider end */
+
+
 .search-btn {
   color: black;
   padding-left: 5px;
