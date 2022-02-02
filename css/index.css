@@ -853,7 +853,7 @@ ul {
 .footer-social-icon span {
   color: #fff;
   display: block;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
@@ -868,9 +868,12 @@ ul {
   width: 40px;
   text-align: center;
   line-height: 38px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
-.facebook-bg{
+.social-icon{
+  font-size: 40px;
+}
+/* .facebook-bg{
   background: #3B5998;
 }
 .twitter-bg{
@@ -878,7 +881,7 @@ ul {
 }
 .google-bg{
   background: #DD4B39;
-}
+} */
 .footer-widget-heading h3 {
   color: #fff;
   font-size: 20px;
