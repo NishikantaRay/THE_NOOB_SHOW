@@ -263,10 +263,10 @@ ion-icon {
   background-position: center;
   background-attachment: fixed;
   box-shadow: inset 200px 1px 300px 200px rgba(0, 0, 0, 0.7);
-  height: 300px;
+  height: 500px;
 }
 .paralx-div:nth-child(3) {
-  height: 400px;
+  height: 450px;
   background-image: url("../img/img1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
