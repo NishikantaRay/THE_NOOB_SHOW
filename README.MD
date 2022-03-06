@@ -1,0 +1,2 @@
+# THE_NOOB_SHOW
+![image](https://www.picuki.com/hosted-by-instagram/url=https%3A%7C%7C%7C%7Cscontent-yyz1-1.cdninstagram.com%7C%7Cv%7C%7Ct51.2885-15%7C%7Ce35%7C%7Cc236.0.608.608a%7C%7C106130672_582149022687565_5307144199153009925_n.jpg%3F_nc_ht%3Dscontent-yyz1-1.cdninstagram.com%26_nc_cat%3D101%26_nc_ohc%3DEAPF7zYcOWgAX9ao0nK%26edm%3DAPU89FABAAAA%26ccb%3D7-4%26oh%3D00_AT-sN9PPGVvOnDPQwia-yALUkkMTOzWFbNROBkgirhJFkQ%26oe%3D620552A0%26_nc_sid%3D86f79a)
