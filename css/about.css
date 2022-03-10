@@ -1,0 +1,45 @@
+
+
+/* START PRELOADER */
+
+#preloader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #008080;
+	z-index: 99;
+	height: 100%;
+}
+
+#status {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-image: url(http://marinamarques.pt/img/preloader.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+}
+
+
+/* END PRELOADER */
+.hero{
+    font-family: Roboto;
+  position: absolute;
+  top: 30%;
+    left: 20%;
+  text-align: center;
+  width: 100%;
+  max-width: 720px;
+  min-width: 280px;
+}
+@media only screen and (max-width: 480px) {
+    .hero{
+        top: 20%;
+        left: 1%;
+    }
+}
