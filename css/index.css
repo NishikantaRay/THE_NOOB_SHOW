@@ -367,6 +367,9 @@ ion-icon {
   .dis {
     display: none;
   }
+  .footer-content{
+    padding-left: 60px;
+  }
 }
 /* paralax  end*/
 
