@@ -44,6 +44,7 @@ body{
         top: 20%;
         left: 1%;
         height: 250px;
+        margin-left: 10px;
     }
     #aboutmeimg{
         align-items: center;
@@ -51,7 +52,85 @@ body{
         height: 100px;
         border-radius: 10%;
     }
+    .hero-header{
+        font-size: 20px;
+        text-align: left;
+        margin-top: -8%;
+    }
+    .hero-sub{
+        font-size: 15px;text-align: left;
+    }
 }
+@media only screen and (max-width: 768px) {
+    .hero{
+        top: 20%;
+        left: 1%;
+        height: 250px;
+        margin-left: 10px;
+    }
+    #aboutmeimg{
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+    }
+    .hero-header{
+        font-size: 20px;
+        text-align: left;
+        margin-top: -8%;
+    }
+    .hero-sub{
+        font-size: 15px;text-align: left;
+    }
+}
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .hero{
+        top: 20%;
+        left: 1%;
+        height: 250px;
+        margin-left: 30px;
+    }
+    .hero-header{
+        font-size: 20px;
+        text-align: left;
+        margin-top: -2%;
+    }
+    .hero-sub{
+        font-size: 15px;text-align: left;
+    } }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .hero{
+        top: 20%;
+        left: 1%;
+        height: 250px;
+        margin-left: 30px;
+    }
+    .hero-header{
+        font-size: 20px;
+        text-align: left;
+        margin-top: -2%;
+    }
+    .hero-sub{
+        font-size: 15px;text-align: left;
+    }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+    .hero{
+        top: 20%;
+        left: 1%;
+        height: 250px;
+        margin-left: 30px;
+    }
+    .hero-header{
+        font-size: 20px;
+        text-align: left;
+        margin-top: -2%;
+    }
+    .hero-sub{
+        font-size: 15px;text-align: left;
+    }
+}
+
 
 .img-circle{
     border-radius: 50%;
