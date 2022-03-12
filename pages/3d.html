@@ -1,25 +1,221 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-<link rel="stylesheet" href="css/style.css">
-<title>Hello, world!</title>
-</head>
-<body>
-<h1>Hello, world!</h1>
 
-<!-- Optional JavaScript; choose one of the two! -->
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<!-- Option 2: Separate Popper and Bootstrap JS -->
-<!--
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
--->
+<head>
+  <!-- Required meta tags -->
+  <link rel="icon" href="./img/favicon.ico" type="image/icon type">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <!--index.css  -->
+  <link rel="stylesheet" href="css/index.css" />
+  <!-- fontawesome.css -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Rufina&display=swap" rel="stylesheet" />
+  <title>THE_NOOBE_SHOW</title>
+</head>
+
+<body>
+  <div class="paralx-div" id="parallax">
+    <!-- header start -->
+    <header class="header">
+      <!-- Navbar start -->
+      <nav class="navbar">
+        <a class="brand" href="#">
+          <!-- img for navbar brand -->
+          <!-- <img src="" alt="" srcset="" /> -->
+          THE_NOOBE_SHOW
+        </a>
+        <input type="checkbox" id="nav" class="hidden" />
+        <label for="nav" class="nav-toggle">
+          <span></span><span></span><span></span>
+        </label>
+        <div class="wrapper">
+          <ul class="menu text-center">
+            <li class="menu-item text-center"><a href="#home">HOME</a></li>
+            <li class="menu-item text-center"><a href="#aboutme">ABOUT ME</a></li>
+            <!-- <li class="menu-item text-center"><a href="#">CREATION</a></li> -->
+            <li class="menu-item text-center"><a href="#challenge">CHALLENGES</a></li>
+            <li class="menu-item text-center"><a href="#">DOWNLOADS</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+    </header>
+    <!-- header end -->
+    <!-- paralax 1 start -->
+    <div class="hero-content container-fluid" id="home">
+      <div class="pb-4 mt-5">
+        <h3 class="hero-header">CREATIONS</h3>
+      </div>
+      <p class="hero-sub">
+        Who the hack am I , what are my goal in life and why do i make the stuff I make.
+      </p>
+      <button class="btn-round-solid">
+        <ion-icon name="play"></ion-icon> Watch
+      </button>
+      <button class="btn-round-clear">
+        <ion-icon name="add"></ion-icon> Add to Library
+      </button>
+    </div>
+    <!--  paralax1 end -->
+  </div>
+  <!-- paraalx 2 -->
+  <!-- <div class="paralx-div dis">
+    <div class="container h-100">
+      <div class="row align-items-center h-100">
+        <div class="container rounded">
+          <div class="slider">
+            <div class="logos" style="color: aliceblue">
+              <i class="fab fa-js fa-4x"></i>
+              <i class="fab fa-linkedin-in fa-4x"></i>
+              <i class="fab fa-dribbble fa-4x"></i>
+              <i class="fab fa-medium-m fa-4x"></i>
+              <i class="fab fa-github fa-4x"></i>
+            </div>
+
+            <div class="logos" style="color: aliceblue">
+              <i class="fab fa-js fa-4x" style="padding-left: 60px"></i>
+              <i class="fab fa-linkedin-in fa-4x" style="padding-left: 60px"></i>
+              <i class="fab fa-dribbble fa-4x" style="padding-left: 60px"></i>
+              <i class="fab fa-medium-m fa-4x" style="padding-left: 60px"></i>
+              <i class="fab fa-github fa-4x" style="padding-left: 60px"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- paralax 3 end -->
+  <!-- paralax 4 start -->
+  <div class="paralx-div">
+    <div class="hero-content2 container-fluid pt-5">
+      <div class="pb-4 mt-5">
+        <h3 class="hero-header">TOWARDS 3D</h3>
+      </div>
+      <p class="hero-sub">
+        I have started to learn 3d in blender because of corridor crew and their crazy videos, But I did not know much about it. That's why I started to learning myself, just by it a LOT! I open a new Instagram account and started to post my work.
+      </p>
+      <button class="btn-round-solid">
+        <ion-icon name="play"></ion-icon> Play Now
+      </button>
+    </div>
+  </div>
+  <!-- paralax 4 end -->
+  <!-- paralax 5-->
+  <div class="paralx-div" id="challenge">
+    <div class="hero-content2 container-fluid pt-5">
+      <div class="pb-4 mt-5">
+        <h3 class="hero-header">CHALLENGES</h3>
+      </div>
+      <p class="hero-sub">
+        I present to you my "HALL OF ART". This is the place where i flaunt all of my creations. I have started to participate in a lot of contests. I will keep creating more epic art and will keep updating this section.
+      </p>
+      <button class="btn-round-solid">
+        <ion-icon name="play"></ion-icon> Play Now
+      </button>
+    </div>
+  </div>
+  <!-- paralax 5 -->
+  <div class="paralx-div" id="aboutme">
+    <div class="hero-content2 container-fluid pt-5">
+      <div class="pb-4 mt-5">
+        <h3 class="hero-header">ABOUT ME</h3>
+      </div>
+      <p class="hero-sub">
+        I am a Graphic Designer and Engineer who try to make cool stuff in digital world. I do things like photo editing, manipulation , 3d enviroment , video editing like montages , now I am going to learn about video color grading with my friend and so much more!
+      </p>
+      <button class="btn-round-solid">
+        <ion-icon name="play"></ion-icon> Play Now
+      </button>
+    </div>
+  </div>
+  <!--  paralx 5 end -->
+  <!-- footer start -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <h3 class="logo text-light">THE_NOOB_SHOW</h3>
+              </div>
+              <div class="footer-text">
+                <p>
+                  Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
+                  sed do eiusmod tempor incididuntut consec tetur adipisicing
+                  elit,Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div class="footer-widget">
+              <div class="footer-social-icon">
+                <span>Follow us</span>
+                <a href="#"><i class="fab fa-facebook-f social-icon"></i></a>
+                <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+                <a href=""><i class="fab fa-instagram social-icon"></i></a>
+                <a href=""><i class="fab fa-youtube social-icon"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <div class="footer-widget">
+              <div class="single-cta mt-5">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span>meenaketanpadhy2002@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>
+                Copyright &copy; 2018, All Right Reserved
+                <a href="https://github.com/NishikantaRay">@Nishikanta</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <!-- index.js -->
+  <script src="js/index.js"></script>
 </body>
+
 </html>
