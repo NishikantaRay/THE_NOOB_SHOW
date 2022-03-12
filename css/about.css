@@ -12,7 +12,9 @@
 	z-index: 99;
 	height: 100%;
 }
-
+body{
+    background-color: rgb(5, 5, 5);
+}
 #status {
 	width: 200px;
 	height: 200px;
@@ -41,5 +43,33 @@
     .hero{
         top: 20%;
         left: 1%;
+        height: 250px;
     }
+    #aboutmeimg{
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+    }
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+#aboutmeimg{
+    align-items: center;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    opacity: 1;
+}
+.stline{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #6e9797;
+    line-height: 2;
+    font-weight: 400;
+    text-align: center;
 }
