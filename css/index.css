@@ -3,6 +3,29 @@
   margin: 0;
   padding: 0;
 }
+
+#preloader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #008080;
+	z-index: 99;
+	height: 100%;
+}
+
+#status {
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	background-image: url(http://marinamarques.pt/img/preloader.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+}
 .font_style {
   font-family: "Open Sans", sans-serif;
 }
