@@ -38,7 +38,7 @@ body{
   height:500px;
 }
 .splash{
-  height: 900px;
+  height: 700px;
   background-color: #020202;}
 }
 @media (min-width:1025px) {
@@ -48,17 +48,17 @@ body{
   height:500px;
 }
 .splash{
-  height: 900px;
+  height: 700px;
   background-color: #020202;}
 }
 @media (min-width:1281px) { 
   .splash{
-    height: 900px;
+    height: 700px;
     background-color: #020202;}
 /* center a image   */
 #imgid{
-  width:500px;
-  height:500px;
+  width:700px;
+  height:700px;
 }
 }
 
