@@ -1,34 +1,12 @@
 
 
-/* START PRELOADER */
 
-#preloader {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: #000;
-	z-index: 99;
-	height: 100%;
-}
 body{
     background-color: rgb(5, 5, 5);
 }
-#status {
-	width: 200px;
-	height: 200px;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	background-image: url(http://marinamarques.pt/img/preloader.gif);
-	background-repeat: no-repeat;
-	background-position: center;
-	margin: -100px 0 0 -100px;
-}
 
 
-/* END PRELOADER */
+
 .hero{
     font-family: Roboto;
   position: absolute;
