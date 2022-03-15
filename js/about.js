@@ -138,3 +138,7 @@ var copyright = document.getElementById("copyright");
 copyright.innerHTML = '© Marina Marques '+ year;
 
 
+setTimeout(function(){ 
+	document.getElementById('app').style['display'] = 'block';
+	document.getElementById('splash').style['display'] = 'none';
+}, 2000);
