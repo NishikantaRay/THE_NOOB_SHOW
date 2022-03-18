@@ -6,8 +6,6 @@ window.addEventListener("scroll", function () {
 function test() {
   console.log("test");
 }
-
-
 $(document).ready(function () {
   setTimeout(function () { test(); });
 });

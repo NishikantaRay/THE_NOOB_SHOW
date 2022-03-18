@@ -1,15 +1,4 @@
-/*
-Please do not claim this website as your own. You don't have to give me credit but DON'T claim it's your code. When you use this as a base for your website please remove all tracking (Google Analytics, Heap).
-*/
 
-// PreLoader
-jQuery.noConflict();
-(function($) {
-	$(window).on('load', function() { // makes sure the whole site is loaded
-		$('#status').fadeOut(); // will first fade out the loading animation
-		$('#preloader').delay(1000).fadeOut('slow'); // will fade out the white DIV that covers the website.
-	});
-})(jQuery);
 
 // Scroll to Top
 jQuery.noConflict();
@@ -133,11 +122,8 @@ jQuery.noConflict();
 
 var today = new Date();
 var year = today.getFullYear();
-
 var copyright = document.getElementById("copyright");
 copyright.innerHTML = '© Marina Marques '+ year;
-
-
 setTimeout(function(){ 
 	document.getElementById('app').style['display'] = 'block';
 	document.getElementById('splash').style['display'] = 'none';

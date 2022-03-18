@@ -1,12 +1,6 @@
-
-
-
 body{
     background-color: rgb(5, 5, 5);
 }
-
-
-
 .hero{
     font-family: Roboto;
   position: absolute;
@@ -113,8 +107,6 @@ body{
         font-size: 15px;text-align: left;
     }
 }
-
-
 .img-circle{
     border-radius: 50%;
 }
@@ -141,12 +133,12 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: inset 200px 1px 300px 200px rgba(60, 10, 88, 0.5);
-  }
-
-  .paralx-div3 {
+}
+.paralx-div3 {
     background-image: url("../img/img3.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: inset 200px 1px 300px 200px rgba(12, 119, 122, 0.5);
-  }
+}
+  
