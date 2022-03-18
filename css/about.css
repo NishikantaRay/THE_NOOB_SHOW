@@ -32,6 +32,10 @@ body{
     .hero-sub{
         font-size: 15px;text-align: left;
     }
+    #imgids{
+        width:80%;
+        height:200px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .hero{
@@ -54,6 +58,10 @@ body{
     .hero-sub{
         font-size: 15px;text-align: left;
     }
+    #imgids{
+        width:80%;
+        height:200px;
+    }
 }
 @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
     .hero{
@@ -74,7 +82,12 @@ body{
     }
     .hero-sub{
         font-size: 15px;text-align: left;
-    } }
+    }
+    #imgids{
+        width:80%;
+        height:400px;
+    }
+ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
     .hero{
         top: 20%;
@@ -89,6 +102,10 @@ body{
     }
     .hero-sub{
         font-size: 15px;text-align: left;
+    }
+    #imgids{
+        width:80%;
+        height:400px;
     }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */
@@ -105,6 +122,10 @@ body{
     }
     .hero-sub{
         font-size: 15px;text-align: left;
+    }
+    #imgids{
+        width:80%;
+        height:400px;
     }
 }
 .img-circle{
@@ -139,6 +160,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: inset 200px 1px 300px 200px rgba(12, 119, 122, 0.5);
+    box-shadow: inset 200px 1px 300px 200px rgba(1, 19, 5, 0.5);
 }
   
