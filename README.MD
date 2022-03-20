@@ -1,2 +1,8 @@
 # THE_NOOB_SHOW
-![image](https://www.picuki.com/hosted-by-instagram/url=https%3A%7C%7C%7C%7Cscontent-yyz1-1.cdninstagram.com%7C%7Cv%7C%7Ct51.2885-15%7C%7Ce35%7C%7Cc236.0.608.608a%7C%7C106130672_582149022687565_5307144199153009925_n.jpg%3F_nc_ht%3Dscontent-yyz1-1.cdninstagram.com%26_nc_cat%3D101%26_nc_ohc%3DEAPF7zYcOWgAX9ao0nK%26edm%3DAPU89FABAAAA%26ccb%3D7-4%26oh%3D00_AT-sN9PPGVvOnDPQwia-yALUkkMTOzWFbNROBkgirhJFkQ%26oe%3D620552A0%26_nc_sid%3D86f79a)
+<img width="944" alt="image" src="https://user-images.githubusercontent.com/62615392/159152894-2e727b7e-41b8-432f-905a-92e15af4d90d.png">
+<img width="942" alt="image" src="https://user-images.githubusercontent.com/62615392/159152913-8abfe361-5a83-4d86-8570-9f260c80f7b7.png">
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/62615392/159152923-b5f18db5-6cfa-49f9-b41a-4eb3293234ca.png">
+<img width="940" alt="image" src="https://user-images.githubusercontent.com/62615392/159152933-1928fff7-ad1e-4904-92c6-b86219994acd.png">
+<img width="941" alt="image" src="https://user-images.githubusercontent.com/62615392/159152942-7c27f477-7fe6-47bf-ac27-895b7277b22a.png">
+<img width="926" alt="image" src="https://user-images.githubusercontent.com/62615392/159152969-68caeba9-0e65-4843-a2ba-51104cc7e73a.png">
+<img width="944" alt="image" src="https://user-images.githubusercontent.com/62615392/159152976-1784a04b-e68e-493e-afa0-163fb86c0675.png">
